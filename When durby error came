@@ -1,0 +1,21 @@
+Soloutions 
+for derby server errors.
+------------------------------------------------------------------------------------------------------
+soloution-1
+ 
+D:\app\Oracle\config\domains\ess\servers\AdminServer\data\ldap\conf
+ 
+rename file replicas.prop as replicas_old.prop
+------------------------------------------------------------------------------------------------------
+soloution-2
+ 
+adaptor_ohs.xml replace
+ 
+D:\app\Oracle\config\domains\ess\config\fmwconfig\ovd\default
+D:\app\Oracle\product\12.2.4\oracle_common\modules\oracle.ovd\templates
+-----------------------------------------------------------------------------------------------------
+soloution-3
+ 
+D:\app\Oracle\config\domains\ess\servers\AdminServer\tmp
+ 
+rename AdminServer.lok file as AdminServer_old.lok
