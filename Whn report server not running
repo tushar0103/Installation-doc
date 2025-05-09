@@ -1,0 +1,22 @@
+1. Close the WLS Servies.
+
+2. D:\app\Oracle\config\domains\ess\servers\WLS_FORMS
+ -- Navigate to the directory: /<ORACLE_HOME>/user_projects/domains/base_domain/servers/WLS_FORMS
+
+3. In the WLS_FORMS directory, Take a backup of the folders: cache , tmp and data, including all contents.
+
+4. After taking backup.Delete the folders and contents of cache , tmp and data from directory D:\app\Oracle\config\domains\ess\servers\WLS_FORMS\tmp
+
+5. Restart the WLS_FORMS servies. And reconfigure the formseweb.cfg and default.env
+
+
+
+
+==============================================================================================================================================
+
+
+1)  when report server not running :=  delete tmp, cache, data folder after taking backup (aap/oracle/domains/base_domain/servers/WLS_REPORTS)
+
+and do changes and configuration in rwreportserver and rw.conf
+
+2) when form server not runng :=delete tmp, cache, data folder after taking backup((aap/oracle/domains/base_domain/servers/WLS_Reports)
