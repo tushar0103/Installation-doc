@@ -1,0 +1,6 @@
+give folder access in rwserver.conf
+
+<folderaccess>........</folderaccess>
+
+
+and put inv.prt file (app/oracle/12.1.2/java/reports/)
