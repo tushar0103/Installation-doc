@@ -1,0 +1,9 @@
+printer "inv"
+
+height   66
+width    80
+
+after page control(L)
+
+return        ""
+linefeed      control(J)
